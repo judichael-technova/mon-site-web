@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - TechNova Solutions</title>
+
+    <link rel="icon" type="image/png" href="/images/logo.png">
+    <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+
+<body>
+
+<div id="bloc_page">
+
+    <header>
+
+        <div id="titre_principal">
+
+            <img src="../images/logo.png" alt="Logo TechNova" id="logo">
+
+            <div>
+                <h1>TechNova</h1>
+                <p>Votre partenaire en solutions informatiques</p>
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <ul>
+
+                <li><a href="index.html">Accueil</a></li>
+
+                <li><a href="presentation.html">À propos</a></li>
+
+                <li><a href="activites.html">Activités</a></li>
+
+                <li><a href="services.html">Services</a></li>
+
+                <li><a href="contact.html" class="active">
+                    Contact
+                </a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO CONTACT -->
+
+        <section class="contact-hero">
+
+            <span>CONTACTEZ-NOUS</span>
+
+            <h2>Parlons de votre projet</h2>
+
+            <p>
+                Vous avez un projet informatique ou besoin d'une
+                solution numérique ? Parlons-en ensemble.
+            </p>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section class="contact-container">
+
+
+            <!-- INFORMATIONS -->
+
+            <div class="contact-info">
+
+                <span class="section-label">
+                    NOS COORDONNÉES
+                </span>
+
+                <h2>Nous sommes à votre écoute</h2>
+
+                <p>
+                    L'équipe de <strong>TechNova</strong> est à votre
+                    écoute pour vous accompagner dans vos projets
+                    informatiques et numériques.
+                </p>
+
+
+                <div class="info-item">
+
+                    <h3>📱 WhatsApp</h3>
+
+                    <p>
+                        +243 984 633 415
+                    </p>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <h3>📧 E-mail</h3>
+
+                    <p>
+                        judichaelmpunga2006@gmail.com
+                    </p>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <h3>📍 Adresse</h3>
+
+                    <p>
+                        Kinshasa, République démocratique du Congo
+                    </p>
+
+                </div>
+
+
+                <div class="info-item">
+
+                    <h3>🕐 Horaires</h3>
+
+                    <p>
+                        Lundi - Vendredi : 08h00 - 17h00
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FORMULAIRE -->
+
+            <div class="contact-form">
+
+                <h2>Quel est votre projet ?</h2>
+
+                <p class="form-intro">
+                    Remplissez ce formulaire. Après validation,
+                    WhatsApp s'ouvrira avec votre demande déjà préparée.
+                </p>
+
+
+                <form id="contactForm">
+
+
+                    <div class="form-group">
+
+                        <label for="nom">
+                            Nom complet
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nom"
+                            placeholder="Votre nom complet"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Adresse e-mail
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="exemple@email.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="telephone">
+                            Téléphone
+                        </label>
+
+                        <input
+                            type="tel"
+                            id="telephone"
+                            placeholder="+243 XXX XXX XXX"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="service">
+                            Service souhaité
+                        </label>
+
+                        <select id="service" required>
+
+                            <option value="">
+                                -- Choisissez un service --
+                            </option>
+
+                            <option value="Création de site web">
+                                Création de site web
+                            </option>
+
+                            <option value="Développement d'application">
+                                Développement d'application
+                            </option>
+
+                            <option value="Réseaux informatiques">
+                                Réseaux informatiques
+                            </option>
+
+                            <option value="Maintenance informatique">
+                                Maintenance informatique
+                            </option>
+
+                            <option value="Cybersécurité">
+                                Cybersécurité
+                            </option>
+
+                            <option value="Solutions Cloud">
+                                Solutions Cloud
+                            </option>
+
+                            <option value="Gestion de bases de données">
+                                Gestion de bases de données
+                            </option>
+
+                            <option value="Autre demande">
+                                Autre demande
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Décrivez votre projet
+                        </label>
+
+                        <textarea
+                            id="message"
+                            rows="6"
+                            placeholder="Expliquez-nous votre besoin..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit">
+                        Envoyer sur WhatsApp
+                    </button>
+
+
+                    <p id="messageStatus"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 TechNova Solutions - Tous droits réservés.
+        </p>
+
+        <p>
+            Site réalisé dans le cadre académique par un étudiant de L1 AIA.
+        </p>
+
+    </footer>
+
+</div>
+
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>
