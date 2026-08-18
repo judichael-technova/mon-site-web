@@ -188,7 +188,7 @@ nav a.active {
             rgba(5, 20, 45, 0.75),
             rgba(5, 20, 45, 0.75)
         ),
-        url("images/banniere.jpeg");
+        url("../images/banniere.jpeg");
 
     background-size: cover;
     background-position: center;
@@ -391,7 +391,7 @@ nav a.active {
             rgba(8, 20, 45, 0.95),
             rgba(8, 20, 45, 0.65)
         ),
-        url("images/technova.png");
+        url("../images/technova.png");
 
     background-size: cover;
     background-position: center;
@@ -848,7 +848,8 @@ nav a.active {
             rgba(7, 25, 55, 0.95),
             rgba(20, 121, 255, 0.75)
         ),
-        url("images/contact.jpg");
+        url("../images/contact.png");
+    
 
     background-size: cover;
 
